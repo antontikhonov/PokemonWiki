@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pokémon Wiki</string>
+
+    <string name="search_pokemon_button">Search Pokémon</string>
+    <string name="random_pokemon_button">Random Pokémon</string>
+
+    <string name="background_description">background picture</string>
+</resources>
