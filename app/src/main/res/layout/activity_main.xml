@@ -25,14 +25,17 @@
             android:layout_gravity="center"
             android:background="#494754"
             android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:onClick="toSearchActivity"
             android:text="@string/search_pokemon_button"
             />
         <Button android:layout_height="wrap_content"
             android:layout_width="200dp"
             android:layout_gravity="center"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="12dp"
             android:background="#494754"
             android:textColor="#ffffff"
+            android:textStyle="bold"
             android:text="@string/random_pokemon_button"
             />
     </LinearLayout>

@@ -5,4 +5,7 @@
     <string name="random_pokemon_button">Random Pokémon</string>
 
     <string name="background_description">background picture</string>
+    <string name="header_search">Enter the name of the pokémon</string>
+    <string name="hint_search">pikachu</string>
+    <string name="button_search">Search</string>
 </resources>
