@@ -6,10 +6,13 @@ import android.os.Bundle
 import android.view.View
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
     }
 
     fun toSearchActivity(view : View) {

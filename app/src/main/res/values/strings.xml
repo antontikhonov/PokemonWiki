@@ -1,10 +1,14 @@
 <resources>
     <string name="app_name">Pokémon Wiki</string>
+    <string name="app_search">Search Pokémon</string>
+    <string name="app_random">Random Pokémon </string>
+    <string name="app_favorite">Favourites</string>
 
     <string name="search_pokemon_button">Search Pokémon</string>
     <string name="random_pokemon_button">Random Pokémon</string>
 
     <string name="background_description">background picture</string>
+    <string name="pokemon_image_description">picture of the pokemon</string>
     <string name="header_search">Enter the name of the pokémon</string>
     <string name="hint_search">pikachu</string>
     <string name="button_search">Search</string>

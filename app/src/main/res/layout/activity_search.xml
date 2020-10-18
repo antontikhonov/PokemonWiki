@@ -16,10 +16,12 @@
         android:text="@string/header_search"/>
 
     <EditText
+        android:id="@+id/search_edittext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_search"/>
     <Button
+        android:onClick="toSearch"
         android:layout_marginTop="8dp"
         android:layout_gravity="center"
         android:layout_width="100dp"
@@ -29,15 +31,17 @@
         android:textColor="#ffffff"/>
 
     <LinearLayout
+        android:id="@+id/pokemon_card"
         android:visibility="invisible"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:orientation="horizontal">
         <ImageView
+            android:contentDescription="@string/pokemon_image_description"
+            android:id="@+id/pokemon_image"
             android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:src="@drawable/a25"/>
+            android:layout_height="150dp"/>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -51,24 +55,24 @@
                     android:layout_height="match_parent"
                     android:src="@drawable/favorite"/>
                 <TextView
+                    android:id="@+id/header_pokemon_search"
                     android:layout_marginStart="8dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="25sp"
-                    android:text="Pikachu"/>
+                    android:textSize="25sp"/>
             </LinearLayout>
             <TextView
+                android:id="@+id/weight_textview"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Its weight is 6.0 kg"/>
+                android:layout_height="wrap_content"/>
             <TextView
+                android:id="@+id/height_textview"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Its height is 0.6 m"/>
+                android:layout_height="wrap_content"/>
             <TextView
+                android:id="@+id/abilites_textview"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Abilities:\n-static\n-lightning-rod"/>
+                android:layout_height="wrap_content"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
