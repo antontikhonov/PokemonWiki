@@ -36,6 +36,7 @@
             android:background="#494754"
             android:textColor="#ffffff"
             android:textStyle="bold"
+            android:onClick="toRandomActivity"
             android:text="@string/random_pokemon_button"
             />
     </LinearLayout>

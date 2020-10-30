@@ -19,4 +19,9 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, SearchActivity::class.java)
         startActivity(intent)
     }
+
+    fun toRandomActivity(view : View) {
+        val intent = Intent(this, RandomActivity::class.java)
+        startActivity(intent)
+    }
 }
